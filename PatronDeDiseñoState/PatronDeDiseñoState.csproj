@@ -45,9 +45,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WhitoutState\Principal.cs" />
+    <Compile Include="WhitState\Compra.cs" />
+    <Compile Include="WhitState\Estados\Cancelada.cs" />
+    <Compile Include="WhitState\Estados\Creada.cs" />
+    <Compile Include="WhitState\Estados\EnEspera.cs" />
+    <Compile Include="WhitState\Estados\Enviada.cs" />
+    <Compile Include="WhitState\Estados\Verificada.cs" />
+    <Compile Include="WhitState\IEstado.cs" />
+    <Compile Include="WhitState\Principal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
