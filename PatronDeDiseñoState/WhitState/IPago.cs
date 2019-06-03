@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatronDeDiseñoState.WhitState
 {
-    interface IEstado
-    {
-        void EjecutaAccion();
+    interface IPago { 
+        void datosDeUsuario();
+        string Transaccion(Boolean datos);
     }
 }
